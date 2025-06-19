@@ -17,3 +17,10 @@ posts.forEach((element) => {
 });
 
 console.log(authors);
+
+// con il metodo map()
+
+const authorsMap = posts.map((element) => {
+  return element.author;
+});
+console.log(authorsMap);

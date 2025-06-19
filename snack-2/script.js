@@ -12,3 +12,10 @@ console.log(people);
 people.forEach((element) => {
   console.log(element.name);
 });
+
+// con il ciclo for
+
+for (let i = 0; i < people.length; i++) {
+  const element = people[i].name;
+  console.log(element);
+}
